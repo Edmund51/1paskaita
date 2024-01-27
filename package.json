@@ -1,7 +1,7 @@
 {
   "name": "1paskaita",
   "version": "1.0.0",
-  "description": "",
+  "description": "ls shows all folder files <br>\r cd goes to next folder<br>\r cd.. goes back by 1 folder<br>\r git clone \"link og repository\" <br>\r git add . adds files to local git system <br>\r git commit -m  \"comment of hanges in the file\" <br>\r git push moves changes to GitHub system <br>\r git pull takes changes from GitHub system into local system",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edmund51/1paskaita.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Edmund51/1paskaita/issues"
+  },
+  "homepage": "https://github.com/Edmund51/1paskaita#readme"
 }
