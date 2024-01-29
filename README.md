@@ -9,3 +9,4 @@ git pull - takes changes from GitHub system into local system<br>
 node index.js - starts js file<br>
 gitignore - ignore files folders <br>
 npm install - gets modules dependencies from package.json file
+npm start - starts aplication (needs to be written into package.json scripts "start":"node index.js") 
